@@ -1,0 +1,183 @@
+
+BEFORE GAME STARTS:
+
+    REQUEST:
+        {
+        \"action\": \"HANDSHAKE\",
+        \"client_name\": \"some_name\",
+        \"payload\": \"\"
+        }
+        
+    RESPONSE:
+
+        {
+        \"status\": \"OK\",
+        \"payload\": {
+                        \"client_id\" : \"[integer]\"
+                     }
+        }
+
+    REQUEST:
+        {
+        \"action\": \"GET_ROOMS\",
+        \"client_name\": \"some_name\",
+        \"payload\": \"\"
+        }
+        
+    RESPONSE:
+
+        {
+        \"status\": \"OK\",
+        \"payload\": [
+                        {\"id\": \"some_id\", \"type\": \"some_type\", \"nb_of_players\": \"some_number\"},
+                        {\"id\": \"some_id\", \"type\": \"some_type\", \"nb_of_players\": \"some_number\"},
+                        {\"id\": \"some_id\", \"type\": \"some_type\", \"nb_of_players\": \"some_number\"}
+                     ]
+        }
+        
+        how to parse:
+            MessagePayloadValidator mpv = new MessagePayloadValidator();
+            JsonObject jsonMessage = mpv.convertToJSONObject(messageFactory.getRooms(rooms));
+            JsonArray array = jsonMessage.get("payload").getAsJsonArray();
+
+            for (JsonElement e : array){
+                int roomId = e.getAsJsonObject().get("id").getAsInt();
+                int roomType = e.getAsJsonObject().get("type").getAsInt());
+            }
+
+    REQUEST:
+        {
+        \"action\": \"CREATE_ROOM\",
+        \"client_name\": \"some_name\",
+        \"payload\": {
+                        \"room_type\": \"some_type\"
+                     }
+        }
+        //maybe later room name will be added
+        
+    RESPONSE:
+
+        {
+        \"status\": \"OK\",
+        \"payload\": {
+                        \"room_id\" : \"[integer]\"
+                     }
+        }
+        OR
+        {
+        \"status\": \"ERROR\",
+        \"payload\":\"\"
+        }
+        
+        //as for now after creating room we will NOT add player to it by default
+        
+    REQUEST:
+        {
+        \"action\": \"JOIN_ROOM\",
+        \"client_name\": \"some_name\",
+        \"payload\": {
+                        \"room_id\" : \"some_id\"
+                     }
+        }
+        
+    RESPONSE:
+
+        {
+        \"status\": \"OK\",
+        \"payload\": {
+                        \"your_corner\": \"corner_number\";
+                    }
+        }
+        
+        OR
+        
+        {
+        \"status\": \"FAIL\",
+        \"payload\": \"\"
+        }
+
+        
+DURING GAME
+
+    REQUEST:
+        {
+        \"action\": \"POSSIBLE_MOVES\",
+        \"client_name\": \"some_name\",
+        \"payload\": {
+                       \"row\": \"row_value\",
+                       \"col\": \"col_value\"
+                    }
+        }
+
+    RESPONSE:
+
+        {
+        \"status\": \"OK\",
+        \"payload\": [
+                       {\"row\": \"row_value\", \"col\": \"col_value\"},
+                       {\"row\": \"row_value\", \"col\": \"col_value\"},
+                       {\"row\": \"row_value\", \"col\": \"col_value\"},
+                    ]
+        }
+
+    REQUEST:
+        {
+        \"action\": \"MAKE_MOVE\",
+        \"client_name\": \"some_name\",
+        \"payload\": {
+                        \"actual\": {\"row\": \"row_value\", \"col\": \"col_value\"},
+                        \"next\": {\"row\": \"row_value\", \"col\": \"col_value\"}
+                    }
+        }
+
+    RESPONSE:
+
+        {
+        \"status\": \"OK\",
+        \"payload\": \"\"
+        }
+        OR
+        {
+        \"status\": \"FAIL\",
+        \"payload\": \"\"
+        }
+
+        
+    SERVER INFO DURING GAME:
+
+        {
+            \"status\": \"YOUR_TURN\",
+            \"payload\": \"\"
+        }
+        
+        AFTER MOVE:
+        {"status": "END_OF_TURN","payload": ""}
+        
+        OR
+        
+        {
+        \"status\": \"YOU_STILL_CAN_MOVE\",
+        \"payload\": [
+                       {\"row\": \"row_value\", \"col\": \"col_value\"},
+                       {\"row\": \"row_value\", \"col\": \"col_value\"},
+                       {\"row\": \"row_value\", \"col\": \"col_value\"},
+                    ]
+        }
+        
+        
+        {
+            \"status\": \"BOARD_UPDATE\",
+            \"payload\": {
+                        \"actual\": {\"row\": \"row_value\", \"col\": \"col_value\"},
+                        \"next\": {\"row\": \"row_value\", \"col\": \"col_value\"}
+                    }
+        }
+        
+        {
+            \"status\": \"WIN_STATUS\",
+            \"payload\": {
+                        \"player_id\": \"some_id\",
+                        \"place\": \"some_place\"
+                    }
+        }
+    

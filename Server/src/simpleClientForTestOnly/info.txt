@@ -1,0 +1,2 @@
+Simply compile and run this app to see how server will handle its requests.
+Actually it imitates 3 clients sending the same valid request.

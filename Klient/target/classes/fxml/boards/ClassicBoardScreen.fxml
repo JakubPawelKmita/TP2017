@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox minHeight="624.0" minWidth="726.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="624.0" prefWidth="726.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controllers.boards.ClassicBoardController">
+    <children>
+        <VBox fx:id="rotatingPanel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="549.0" prefWidth="486.0">
+            <HBox.margin>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="40.0" />
+            </HBox.margin>
+            <HBox layoutX="10.0" layoutY="357.0" spacing="5.0">
+                <children>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x12y00">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                </children>
+                <VBox.margin>
+                    <Insets left="222.0" />
+                </VBox.margin>
+                <padding>
+                    <Insets left="5.0" />
+                </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="57.0" spacing="5.0">
+                <children>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x11y01">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x12y01">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                </children>
+                <VBox.margin>
+                    <Insets left="203.5" />
+                </VBox.margin>
+                <opaqueInsets>
+                    <Insets />
+                </opaqueInsets>
+                <padding>
+                    <Insets left="5.0" />
+                </padding>
+            </HBox>
+            <HBox layoutX="27.0" layoutY="89.0" spacing="5.0">
+                <children>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x10y02">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x11y02">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x12y02">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                </children>
+                <VBox.margin>
+                    <Insets left="185.0" />
+                </VBox.margin>
+                <padding>
+                    <Insets left="5.0" />
+                </padding>
+            </HBox>
+            <HBox layoutX="177.0" layoutY="394.0" spacing="5.0">
+                <children>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x09y03">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x10y03">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x11y03">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x12y03">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                </children>
+                <VBox.margin>
+                    <Insets left="166.5" />
+                </VBox.margin>
+                <padding>
+                    <Insets left="5.0" />
+                </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="153.0" spacing="5.0">
+                <children>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x04y04">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x05y04">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x06y04">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x07y04">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x08y04">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x09y04">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x10y04">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x11y04">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x12y04">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x13y04">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x14y04">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x15y04">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x16y04">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                </children>
+                <padding>
+                    <Insets left="5.0" />
+                </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="185.0" spacing="5.0">
+                <children>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x04y05">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x05y05">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x06y05">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x07y05">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x08y05">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x09y05">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x10y05">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x11y05">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x12y05">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x13y05">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x14y05">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x15y05">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                </children>
+                <VBox.margin>
+                    <Insets left="18.5" />
+                </VBox.margin>
+                <padding>
+                    <Insets left="5.0" />
+                </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="217.0" spacing="5.0">
+                <children>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x04y06">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x05y06">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x06y06">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x07y06">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x08y06">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x09y06">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x10y06">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x11y06">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x12y06">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x13y06">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x14y06">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                </children>
+                <VBox.margin>
+                    <Insets left="37.0" />
+                </VBox.margin>
+                <padding>
+                    <Insets left="5.0" />
+                </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="249.0" spacing="5.0">
+                <children>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x04y07">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x05y07">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x06y07">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x07y07">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x08y07">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x09y07">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x10y07">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x11y07">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x12y07">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x13y07">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                </children>
+                <VBox.margin>
+                    <Insets left="55.5" />
+                </VBox.margin>
+                <padding>
+                    <Insets left="5.0" />
+                </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="281.0" spacing="5.0">
+                <children>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x04y08">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x05y08">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x06y08">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x07y08">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x08y08">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x09y08">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x10y08">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x11y08">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x12y08">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                </children>
+                <VBox.margin>
+                    <Insets left="74.0" />
+                </VBox.margin>
+                <padding>
+                    <Insets left="5.0" />
+                </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="313.0" spacing="5.0">
+                <children>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x03y09">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x04y09">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x05y09">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x06y09">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x07y09">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x08y09">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x09y09">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x10y09">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x11y09">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x12y09">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                </children>
+                <VBox.margin>
+                    <Insets left="55.5" />
+                </VBox.margin>
+                <padding>
+                    <Insets left="5.0" />
+                </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="345.0" spacing="5.0">
+                <children>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x02y10">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x03y10">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x04y10">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x05y10">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x06y10">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x07y10">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x08y10">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x09y10">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x10y10">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x11y10">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x12y10">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                </children>
+                <VBox.margin>
+                    <Insets left="37.0" />
+                </VBox.margin>
+                <padding>
+                    <Insets left="5.0" />
+                </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="377.0" spacing="5.0">
+                <children>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x01y11">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x02y11">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x03y11">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x04y11">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x05y11">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x06y11">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x07y11">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x08y11">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x09y11">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x10y11">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x11y11">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x12y11">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                </children>
+                <VBox.margin>
+                    <Insets left="18.5" />
+                </VBox.margin>
+                <padding>
+                    <Insets left="5.0" />
+                </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="409.0" spacing="5.0">
+                <children>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x00y12">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x01y12">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x02y12">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x03y12">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x04y12">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x05y12">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x06y12">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x07y12">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x08y12">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x09y12">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x10y12">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x11y12">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x12y12">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                </children>
+                <padding>
+                    <Insets left="5.0" />
+                </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="441.0" spacing="5.0">
+                <children>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x04y13">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x05y13">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x06y13">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x07y13">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                </children>
+                <VBox.margin>
+                    <Insets left="166.5" />
+                </VBox.margin>
+                <padding>
+                    <Insets left="5.0" />
+                </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="473.0" spacing="5.0">
+                <children>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x04y14">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x05y14">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x06y14">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                </children>
+                <VBox.margin>
+                    <Insets left="185.0" />
+                </VBox.margin>
+                <padding>
+                    <Insets left="5.0" />
+                </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="505.0" spacing="5.0">
+                <children>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x04y15">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x05y15">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                </children>
+                <VBox.margin>
+                    <Insets left="203.5" />
+                </VBox.margin>
+                <padding>
+                    <Insets left="5.0" />
+                </padding>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="507.0" spacing="5.0">
+                <children>
+                    <Button mnemonicParsing="false" onAction="#fieldOnAction" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" fx:id="x04y16">
+                        <HBox.margin>
+                            <Insets />
+                        </HBox.margin>
+                    </Button>
+                </children>
+                <VBox.margin>
+                    <Insets left="222.0" />
+                </VBox.margin>
+                <padding>
+                    <Insets left="5.0" />
+                </padding>
+            </HBox>
+        </VBox>
+        <VBox alignment="CENTER" prefHeight="624.0" prefWidth="193.0" spacing="20.0">
+            <children>
+            <Button fx:id="colorButon" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 20;" />
+                <Button mnemonicParsing="false" onAction="#skipMove" prefHeight="38.0" prefWidth="141.0" text="Skip Move">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Label fx:id="communicate" alignment="CENTER" text="YOUR TURN" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+                <Button mnemonicParsing="false" onAction="#loadBots" prefHeight="38.0" prefWidth="141.0" text="Load Bots">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button layoutX="36.0" layoutY="386.0" mnemonicParsing="false" onAction="#leaveRoom" prefHeight="38.0" prefWidth="141.0" style="-fx-background-color: red;" text="Leave Room" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            </children>
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+        </VBox>
+    </children>
+</HBox>
